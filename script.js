@@ -1,9 +1,16 @@
 'use strict';
+<<<<<<< HEAD
 
 // function calcAge(birthYear) {
 //   const age = 2037 - birthYear;
 // }
 /*
+=======
+/*
+function calcAge(birthYear) {
+  const age = 2037 - birthYear;
+
+>>>>>>> f4b2978c7a7c15416be08bf61f306edc950780c6
   function printAge() {
     let output = `${firstName}, you are ${age}, born in ${birthYear}`;
     console.log(output);
@@ -77,6 +84,7 @@ let y = 2;
 const z = 3;
 */
 
+<<<<<<< HEAD
 // console.log(this);
 
 const calcAge = function (birthYear) {
@@ -112,3 +120,6 @@ matilda.calcAge();
 
 const f = jonas.calcAge;
 f();
+=======
+console.log(this);
+>>>>>>> f4b2978c7a7c15416be08bf61f306edc950780c6
